@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Octree.SilverHorn</id>
+    <version>2.0.0</version>
+    <title>Octree</title>
+    <authors>SilverHorn</authors>
+    <owners>SilverHorn</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An octree is a tree structure for storing sparse 3-D data.</description>
+    <releaseNotes>This is first release of library.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Octree C++ native</tags>
+  </metadata>
+  <files>
+    <file src="v141\Win32\Debug\Octree.lib"   target="lib\native\v141\Win32\Debug"/>
+    <file src="v141\Win32\Debug\Octree.pdb"   target="lib\native\v141\Win32\Debug"/>
+    <file src="v141\Win32\Release\Octree.lib" target="lib\native\v141\Win32\Release"/>
+
+    <file src="v141\x64\Debug\Octree.lib"     target="lib\native\v141\x64\Debug"/>
+    <file src="v141\x64\Debug\Octree.pdb"     target="lib\native\v141\x64\Debug"/>
+    <file src="v141\x64\Release\Octree.lib"   target="lib\native\v141\x64\Release"/>
+
+    <file src="Octree\Array.hpp"              target="build\native\include\"/>
+    <file src="Octree\hxa7241_general.hpp"    target="build\native\include\"/>
+    <file src="Octree\hxa7241_graphics.hpp"   target="build\native\include\"/>
+    <file src="Octree\Octree.hpp" target="build\native\include\"/>
+    <file src="Octree\OctreeAuxiliary.hpp" target="build\native\include\"/>
+    <file src="Octree\OctreeImplementation.hpp" target="build\native\include\"/>
+    <file src="Octree\OctreeStreamOut.hpp" target="build\native\include\"/>
+    <file src="Octree\OctreeTest.hpp" target="build\native\include\"/>
+    <file src="Octree\Primitives.hpp" target="build\native\include\"/>
+    <file src="Octree\Vector3f.hpp" target="build\native\include\"/>
+
+    <!-- .targets -->
+    <file src="Octree.SilverHorn.targets" target="build\"/>
+  </files>
+</package>
