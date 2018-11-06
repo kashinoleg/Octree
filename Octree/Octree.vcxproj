@@ -18,6 +18,36 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Octree.hpp" />
+    <ClInclude Include="OctreeAgent.hpp" />
+    <ClInclude Include="OctreeAgentV.hpp" />
+    <ClInclude Include="OctreeArray.hpp" />
+    <ClInclude Include="OctreeBound.hpp" />
+    <ClInclude Include="OctreeBranch.hpp" />
+    <ClInclude Include="OctreeCell.hpp" />
+    <ClInclude Include="OctreeData.hpp" />
+    <ClInclude Include="OctreeDimensions.hpp" />
+    <ClInclude Include="OctreeLeaf.hpp" />
+    <ClInclude Include="OctreeRoot.hpp" />
+    <ClInclude Include="OctreeVector.hpp" />
+    <ClInclude Include="OctreeVisitor.hpp" />
+    <ClInclude Include="OctreeVisitorV.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OctreeAgent.cpp" />
+    <ClCompile Include="OctreeAgentV.cpp" />
+    <ClCompile Include="OctreeBound.cpp" />
+    <ClCompile Include="OctreeBranch.cpp" />
+    <ClCompile Include="OctreeCell.cpp" />
+    <ClCompile Include="OctreeData.cpp" />
+    <ClCompile Include="OctreeDimensions.cpp" />
+    <ClCompile Include="OctreeLeaf.cpp" />
+    <ClCompile Include="OctreeRoot.cpp" />
+    <ClCompile Include="OctreeVector.cpp" />
+    <ClCompile Include="OctreeVisitor.cpp" />
+    <ClCompile Include="OctreeVisitorV.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{ED029E14-7237-4038-AF58-A2F5160B687E}</ProjectGuid>
@@ -129,28 +159,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Array.cpp" />
-    <ClCompile Include="Octree.cpp" />
-    <ClCompile Include="OctreeAuxiliary.cpp" />
-    <ClCompile Include="OctreeExample.cpp" />
-    <ClCompile Include="OctreeImplementation.cpp" />
-    <ClCompile Include="OctreeStreamOut.cpp" />
-    <ClCompile Include="OctreeTest.cpp" />
-    <ClCompile Include="Vector3f.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Array.hpp" />
-    <ClInclude Include="hxa7241_general.hpp" />
-    <ClInclude Include="hxa7241_graphics.hpp" />
-    <ClInclude Include="Octree.hpp" />
-    <ClInclude Include="OctreeAuxiliary.hpp" />
-    <ClInclude Include="OctreeImplementation.hpp" />
-    <ClInclude Include="OctreeStreamOut.hpp" />
-    <ClInclude Include="OctreeTest.hpp" />
-    <ClInclude Include="Primitives.hpp" />
-    <ClInclude Include="Vector3f.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

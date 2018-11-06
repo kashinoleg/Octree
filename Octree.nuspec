@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Octree.SilverHorn</id>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <title>Octree</title>
     <authors>SilverHorn</authors>
     <owners>SilverHorn</owners>
@@ -21,16 +21,20 @@
     <file src="v141\x64\Debug\Octree.pdb"     target="lib\native\v141\x64\Debug"/>
     <file src="v141\x64\Release\Octree.lib"   target="lib\native\v141\x64\Release"/>
 
-    <file src="Octree\Array.hpp"              target="build\native\include\"/>
-    <file src="Octree\hxa7241_general.hpp"    target="build\native\include\"/>
-    <file src="Octree\hxa7241_graphics.hpp"   target="build\native\include\"/>
-    <file src="Octree\Octree.hpp" target="build\native\include\"/>
-    <file src="Octree\OctreeAuxiliary.hpp" target="build\native\include\"/>
-    <file src="Octree\OctreeImplementation.hpp" target="build\native\include\"/>
-    <file src="Octree\OctreeStreamOut.hpp" target="build\native\include\"/>
-    <file src="Octree\OctreeTest.hpp" target="build\native\include\"/>
-    <file src="Octree\Primitives.hpp" target="build\native\include\"/>
-    <file src="Octree\Vector3f.hpp" target="build\native\include\"/>
+    <file src="Octree\Octree.hpp"             target="build\native\include\"/>
+    <file src="Octree\OctreeAgent.hpp"        target="build\native\include\"/>
+    <file src="Octree\OctreeAgentV.hpp"       target="build\native\include\"/>
+    <file src="Octree\OctreeArray.hpp"        target="build\native\include\"/>
+    <file src="Octree\OctreeBound.hpp"        target="build\native\include\"/>
+    <file src="Octree\OctreeBranch.hpp"       target="build\native\include\"/>
+    <file src="Octree\OctreeCell.hpp"         target="build\native\include\"/>
+    <file src="Octree\OctreeData.hpp"         target="build\native\include\"/>
+    <file src="Octree\OctreeDimensions.hpp"   target="build\native\include\"/>
+    <file src="Octree\OctreeLeaf.hpp"         target="build\native\include\"/>
+    <file src="Octree\OctreeRoot.hpp"         target="build\native\include\"/>
+    <file src="Octree\OctreeVector.hpp"       target="build\native\include\"/>
+    <file src="Octree\OctreeVisitor.hpp"      target="build\native\include\"/>
+    <file src="Octree\OctreeVisitorV.hpp"     target="build\native\include\"/>
 
     <!-- .targets -->
     <file src="Octree.SilverHorn.targets" target="build\"/>
